@@ -221,8 +221,8 @@ def administrar_chatbot(text,number, messageId, name):
     time.sleep(2)
 
     if "hola" in text:
-        body = "¡Hola! 👋 Bienvenido a Bigdateros. ¿Cómo podemos ayudarte hoy?"
-        footer = "Equipo Bigdateros"
+        body = "¡Hola! 👋 Bienvenido a Greengol. ¿Cómo podemos ayudarte hoy?"
+        footer = "Equipo Greengol"
         options = ["✅ servicios", "📅 agendar cita"]
 
         replyButtonData = buttonReply_Message(number, options, body, footer, "sed1",messageId)
