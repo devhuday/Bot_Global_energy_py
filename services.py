@@ -222,7 +222,7 @@ def administrar_chatbot(text,number, messageId, name):
     time.sleep(2)
 
     if "hola" in text:
-        body = "¡Hola! 👋 Bienvenido a Greengol. ¿Cómo podemos ayudarte hoy?"
+        body = "¡Hola! ¡Bienvenido a Greengol S.A.S.! 🌞💚. ¿Cómo podemos ayudarte hoy?"
         options = ["✅ servicios", "📅 agendar cita"]
         replyButtonData = buttonReply_Message(number, options, body, footer, "sed1",messageId)
         replyReaction = replyReaction_Message(number, messageId, "🫡")
